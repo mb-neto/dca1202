@@ -1,0 +1,50 @@
+#include <iostream>
+#include <>
+
+class Point{
+private: 
+    float x, y,n;
+public:
+    void setX(float _x){
+        // permite que o usuário possa acessar a variável privada x
+        x= _x;
+    }
+    void setY(float _y){
+        // permite que o usuário possa acessar a variável privada y
+        y= _y;
+    }
+   void setXY(float _x, float_y){
+        //permite que o usuário possa acessar tanto a variável privada x quanto a y
+        setX(_x);
+        setY(_y);
+    }
+   // retorna a coordenada x
+   float getX(){
+       return x;
+   }
+   // retorna a coordenada y
+   float getY(){
+       return y;
+   }
+   // adiciona as coordenadas (x, y) do ponto com as coordenadas de um ponto P1 (x1,y1)
+   void add(Point p1){
+      x= x+p1.getX();
+      y= y+p1.getY();
+   }
+    // subtrai as coordenadas (x, y) do ponto com as coordenadas de um ponto P1 (x1,y1)
+   void sub(Point p1){
+       x= x-p1.getX();
+       y= y-p1.getY();
+   }
+   void norma(){
+       n = sqrt(x*x+y*y);
+   }
+   void translada(float a, float b){
+       x= x+a;
+       y=y+b;
+   }
+   void imprime(){
+       cout << 
+   }
+    
+};
