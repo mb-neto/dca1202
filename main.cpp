@@ -8,7 +8,6 @@ using namespace std;
 int main()
 {
     Retangulo R(0,0,3,4);
-    //Point P;
     R.imprimePoligono();
     cout << "\n";
     cout << R.areaPoligono() << "\n";
