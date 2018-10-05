@@ -1,0 +1,358 @@
+\hypertarget{class_point}{}\section{Point Class Reference}
+\label{class_point}\index{Point@{Point}}
+
+
+A classe {\itshape \hyperlink{class_point}{Point}} define as características e operações que são possíveis realizar com pontos do plano cartesiano.  
+
+
+
+
+{\ttfamily \#include $<$Point.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_point_a06c32166c2ad9eac25799ef189b49683}{Point} (float \+\_\+x=0, float \+\_\+y=0)
+\begin{DoxyCompactList}\small\item\em {\itshape \hyperlink{class_point}{Point}} é um construtor da classe para atribuir valores as coordenadas x e y, onde, caso não fornecido valores, assume-\/se que x e y recebem o valor de 0. \end{DoxyCompactList}\item 
+void \hyperlink{class_point_a428a1676e2fdec6753c42011a1d59d18}{setX} (float \+\_\+x)
+\begin{DoxyCompactList}\small\item\em A função {\itshape setX} permite que o usuário possa atribuir valores a variável privada x. \end{DoxyCompactList}\item 
+void \hyperlink{class_point_a9868c4601b0ea0c2d0de20fe41ee0e49}{setY} (float \+\_\+y)
+\begin{DoxyCompactList}\small\item\em A função {\itshape setY} permite que o usuário possa atribuir valores a variável privada y. \end{DoxyCompactList}\item 
+void \hyperlink{class_point_ab5385c6d9bfa841e641e4709fc9f14cc}{set\+XY} (float \+\_\+x, float \+\_\+y)
+\begin{DoxyCompactList}\small\item\em Em {\itshape set\+XY}, o usuário tem a disponibilidade de atribuir valores, respectivamente, as variáveis privada x e y. \end{DoxyCompactList}\item 
+float \hyperlink{class_point_acc27466778cc87a662bba40268c4c0c8}{getX} ()
+\begin{DoxyCompactList}\small\item\em A função {\itshape getX} retorna a coordenada x. \end{DoxyCompactList}\item 
+float \hyperlink{class_point_a3cccbca94719ddde353cce86ce0e2f64}{getY} ()
+\begin{DoxyCompactList}\small\item\em A função {\itshape getY} retorna a coordenada y. \end{DoxyCompactList}\item 
+void \hyperlink{class_point_a6bcf8fd2524ecc4d5b6c1dc942d541a5}{add} (\hyperlink{class_point}{Point} p1)
+\begin{DoxyCompactList}\small\item\em É atribuída a função {\itshape add} a utilidade de adicionar às coordenadas (x, y) do ponto os valores das coordenadas de um ponto {\bfseries P1(x1,y1)}. \end{DoxyCompactList}\item 
+void \hyperlink{class_point_af7d9e533f0030edf4ab28fdc0f12acd4}{sub} (\hyperlink{class_point}{Point} p1)
+\begin{DoxyCompactList}\small\item\em É atribuída a função {\itshape sub} a utilidade de subtrair às coordenadas (x, y) do ponto os valores das coordenadas de um ponto {\bfseries P1(x1,y1)}. \end{DoxyCompactList}\item 
+void \hyperlink{class_point_a6233714649b03294a020827fb53eb8ad}{norma} ()
+\begin{DoxyCompactList}\small\item\em A função {\itshape norma} calcula a norma de ponto a ponto. \end{DoxyCompactList}\item 
+void \hyperlink{class_point_ad9676e36f3444534b609e3c68422239a}{translada} (float a, float b)
+\begin{DoxyCompactList}\small\item\em A função {\itshape translada} permite a translação do ponto em (x+a, y+b). \end{DoxyCompactList}\item 
+void \hyperlink{class_point_a1fb5c2501c27ab2cbc99d06c2a26a741}{imprime} ()
+\begin{DoxyCompactList}\small\item\em A função {\itshape imprime} permite imprimir na tela as coordenadas do ponto na forma (xpos, ypos). \end{DoxyCompactList}\item 
+void \hyperlink{class_point_a428a1676e2fdec6753c42011a1d59d18}{setX} (float \+\_\+x)
+\item 
+void \hyperlink{class_point_a9868c4601b0ea0c2d0de20fe41ee0e49}{setY} (float \+\_\+y)
+\item 
+void \hyperlink{class_point_ab5385c6d9bfa841e641e4709fc9f14cc}{set\+XY} (float \+\_\+x, float \+\_\+y)
+\item 
+float \hyperlink{class_point_acc27466778cc87a662bba40268c4c0c8}{getX} ()
+\item 
+float \hyperlink{class_point_a3cccbca94719ddde353cce86ce0e2f64}{getY} ()
+\item 
+void \hyperlink{class_point_a6bcf8fd2524ecc4d5b6c1dc942d541a5}{add} (\hyperlink{class_point}{Point} p1)
+\item 
+void \hyperlink{class_point_af7d9e533f0030edf4ab28fdc0f12acd4}{sub} (\hyperlink{class_point}{Point} p1)
+\item 
+void \hyperlink{class_point_a6233714649b03294a020827fb53eb8ad}{norma} ()
+\item 
+void \hyperlink{class_point_ad9676e36f3444534b609e3c68422239a}{translada} (float a, float b)
+\item 
+void \hyperlink{class_point_a1fb5c2501c27ab2cbc99d06c2a26a741}{imprime} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+A classe {\itshape \hyperlink{class_point}{Point}} define as características e operações que são possíveis realizar com pontos do plano cartesiano. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_point_a06c32166c2ad9eac25799ef189b49683}\label{class_point_a06c32166c2ad9eac25799ef189b49683}} 
+\index{Point@{Point}!Point@{Point}}
+\index{Point@{Point}!Point@{Point}}
+\subsubsection{\texorpdfstring{Point()}{Point()}}
+{\footnotesize\ttfamily Point\+::\+Point (\begin{DoxyParamCaption}\item[{float}]{\+\_\+x = {\ttfamily 0},  }\item[{float}]{\+\_\+y = {\ttfamily 0} }\end{DoxyParamCaption})}
+
+
+
+{\itshape \hyperlink{class_point}{Point}} é um construtor da classe para atribuir valores as coordenadas x e y, onde, caso não fornecido valores, assume-\/se que x e y recebem o valor de 0. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+x} & é a coordenada x do ponto no plano cartesiano. \\
+\hline
+{\em \+\_\+y} & é a coordenada y do ponto no plano cartesiano. \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyCode}
+7                               \{
+8     x = \_x;
+9     y = \_y;
+10 \}
+\end{DoxyCode}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_point_a6bcf8fd2524ecc4d5b6c1dc942d541a5}\label{class_point_a6bcf8fd2524ecc4d5b6c1dc942d541a5}} 
+\index{Point@{Point}!add@{add}}
+\index{add@{add}!Point@{Point}}
+\subsubsection{\texorpdfstring{add()}{add()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void Point\+::add (\begin{DoxyParamCaption}\item[{\hyperlink{class_point}{Point}}]{p1 }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_point_a6bcf8fd2524ecc4d5b6c1dc942d541a5}\label{class_point_a6bcf8fd2524ecc4d5b6c1dc942d541a5}} 
+\index{Point@{Point}!add@{add}}
+\index{add@{add}!Point@{Point}}
+\subsubsection{\texorpdfstring{add()}{add()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void Point\+::add (\begin{DoxyParamCaption}\item[{\hyperlink{class_point}{Point}}]{p1 }\end{DoxyParamCaption})}
+
+
+
+É atribuída a função {\itshape add} a utilidade de adicionar às coordenadas (x, y) do ponto os valores das coordenadas de um ponto {\bfseries P1(x1,y1)}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p1} & é um ponto para utilizado para fins de soma de suas coordenadas (x,y) ás coordenadas (x,y) do ponto o qual chama a função. \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyCode}
+29                        \{
+30      x= x+p1.\hyperlink{class_point_acc27466778cc87a662bba40268c4c0c8}{getX}();
+31      y= y+p1.\hyperlink{class_point_a3cccbca94719ddde353cce86ce0e2f64}{getY}();
+32 \}
+\end{DoxyCode}
+\mbox{\Hypertarget{class_point_acc27466778cc87a662bba40268c4c0c8}\label{class_point_acc27466778cc87a662bba40268c4c0c8}} 
+\index{Point@{Point}!getX@{getX}}
+\index{getX@{getX}!Point@{Point}}
+\subsubsection{\texorpdfstring{get\+X()}{getX()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily float Point\+::getX (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_point_acc27466778cc87a662bba40268c4c0c8}\label{class_point_acc27466778cc87a662bba40268c4c0c8}} 
+\index{Point@{Point}!getX@{getX}}
+\index{getX@{getX}!Point@{Point}}
+\subsubsection{\texorpdfstring{get\+X()}{getX()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily float Point\+::getX (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+A função {\itshape getX} retorna a coordenada x. 
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+23                  \{
+24      \textcolor{keywordflow}{return} x;
+25 \}
+\end{DoxyCode}
+\mbox{\Hypertarget{class_point_a3cccbca94719ddde353cce86ce0e2f64}\label{class_point_a3cccbca94719ddde353cce86ce0e2f64}} 
+\index{Point@{Point}!getY@{getY}}
+\index{getY@{getY}!Point@{Point}}
+\subsubsection{\texorpdfstring{get\+Y()}{getY()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily float Point\+::getY (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_point_a3cccbca94719ddde353cce86ce0e2f64}\label{class_point_a3cccbca94719ddde353cce86ce0e2f64}} 
+\index{Point@{Point}!getY@{getY}}
+\index{getY@{getY}!Point@{Point}}
+\subsubsection{\texorpdfstring{get\+Y()}{getY()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily float Point\+::getY (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+A função {\itshape getY} retorna a coordenada y. 
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+26                  \{
+27      \textcolor{keywordflow}{return} y;
+28 \}
+\end{DoxyCode}
+\mbox{\Hypertarget{class_point_a1fb5c2501c27ab2cbc99d06c2a26a741}\label{class_point_a1fb5c2501c27ab2cbc99d06c2a26a741}} 
+\index{Point@{Point}!imprime@{imprime}}
+\index{imprime@{imprime}!Point@{Point}}
+\subsubsection{\texorpdfstring{imprime()}{imprime()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void Point\+::imprime (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_point_a1fb5c2501c27ab2cbc99d06c2a26a741}\label{class_point_a1fb5c2501c27ab2cbc99d06c2a26a741}} 
+\index{Point@{Point}!imprime@{imprime}}
+\index{imprime@{imprime}!Point@{Point}}
+\subsubsection{\texorpdfstring{imprime()}{imprime()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void Point\+::imprime (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+A função {\itshape imprime} permite imprimir na tela as coordenadas do ponto na forma (xpos, ypos). 
+
+
+\begin{DoxyCode}
+44                    \{
+45        cout << \textcolor{stringliteral}{"("} << x << \textcolor{stringliteral}{", "} << y << \textcolor{stringliteral}{")"};
+46 \}
+\end{DoxyCode}
+\mbox{\Hypertarget{class_point_a6233714649b03294a020827fb53eb8ad}\label{class_point_a6233714649b03294a020827fb53eb8ad}} 
+\index{Point@{Point}!norma@{norma}}
+\index{norma@{norma}!Point@{Point}}
+\subsubsection{\texorpdfstring{norma()}{norma()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void Point\+::norma (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_point_a6233714649b03294a020827fb53eb8ad}\label{class_point_a6233714649b03294a020827fb53eb8ad}} 
+\index{Point@{Point}!norma@{norma}}
+\index{norma@{norma}!Point@{Point}}
+\subsubsection{\texorpdfstring{norma()}{norma()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void Point\+::norma (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+A função {\itshape norma} calcula a norma de ponto a ponto. 
+
+
+\begin{DoxyCode}
+37                  \{
+38        norm = sqrt(x*x + y*y);
+39 \}
+\end{DoxyCode}
+\mbox{\Hypertarget{class_point_a428a1676e2fdec6753c42011a1d59d18}\label{class_point_a428a1676e2fdec6753c42011a1d59d18}} 
+\index{Point@{Point}!setX@{setX}}
+\index{setX@{setX}!Point@{Point}}
+\subsubsection{\texorpdfstring{set\+X()}{setX()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void Point\+::setX (\begin{DoxyParamCaption}\item[{float}]{\+\_\+x }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_point_a428a1676e2fdec6753c42011a1d59d18}\label{class_point_a428a1676e2fdec6753c42011a1d59d18}} 
+\index{Point@{Point}!setX@{setX}}
+\index{setX@{setX}!Point@{Point}}
+\subsubsection{\texorpdfstring{set\+X()}{setX()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void Point\+::setX (\begin{DoxyParamCaption}\item[{float}]{\+\_\+x }\end{DoxyParamCaption})}
+
+
+
+A função {\itshape setX} permite que o usuário possa atribuir valores a variável privada x. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+x} & é o valor atribuído a variável privada x. \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyCode}
+12                         \{
+13     x= \_x;
+14 \}
+\end{DoxyCode}
+\mbox{\Hypertarget{class_point_ab5385c6d9bfa841e641e4709fc9f14cc}\label{class_point_ab5385c6d9bfa841e641e4709fc9f14cc}} 
+\index{Point@{Point}!set\+XY@{set\+XY}}
+\index{set\+XY@{set\+XY}!Point@{Point}}
+\subsubsection{\texorpdfstring{set\+X\+Y()}{setXY()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void Point\+::set\+XY (\begin{DoxyParamCaption}\item[{float}]{\+\_\+x,  }\item[{float}]{\+\_\+y }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_point_ab5385c6d9bfa841e641e4709fc9f14cc}\label{class_point_ab5385c6d9bfa841e641e4709fc9f14cc}} 
+\index{Point@{Point}!set\+XY@{set\+XY}}
+\index{set\+XY@{set\+XY}!Point@{Point}}
+\subsubsection{\texorpdfstring{set\+X\+Y()}{setXY()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void Point\+::set\+XY (\begin{DoxyParamCaption}\item[{float}]{\+\_\+x,  }\item[{float}]{\+\_\+y }\end{DoxyParamCaption})}
+
+
+
+Em {\itshape set\+XY}, o usuário tem a disponibilidade de atribuir valores, respectivamente, as variáveis privada x e y. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+x} & é o valor atribuído a variável privada x. \\
+\hline
+{\em \+\_\+y} & é o valor atribuído a variável privada y. \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyCode}
+19                                    \{
+20     \hyperlink{class_point_a428a1676e2fdec6753c42011a1d59d18}{setX}(\_x);
+21     \hyperlink{class_point_a9868c4601b0ea0c2d0de20fe41ee0e49}{setY}(\_y);
+22 \}
+\end{DoxyCode}
+\mbox{\Hypertarget{class_point_a9868c4601b0ea0c2d0de20fe41ee0e49}\label{class_point_a9868c4601b0ea0c2d0de20fe41ee0e49}} 
+\index{Point@{Point}!setY@{setY}}
+\index{setY@{setY}!Point@{Point}}
+\subsubsection{\texorpdfstring{set\+Y()}{setY()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void Point\+::setY (\begin{DoxyParamCaption}\item[{float}]{\+\_\+y }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_point_a9868c4601b0ea0c2d0de20fe41ee0e49}\label{class_point_a9868c4601b0ea0c2d0de20fe41ee0e49}} 
+\index{Point@{Point}!setY@{setY}}
+\index{setY@{setY}!Point@{Point}}
+\subsubsection{\texorpdfstring{set\+Y()}{setY()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void Point\+::setY (\begin{DoxyParamCaption}\item[{float}]{\+\_\+y }\end{DoxyParamCaption})}
+
+
+
+A função {\itshape setY} permite que o usuário possa atribuir valores a variável privada y. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+y} & é o valor atribuído a variável privada y. \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyCode}
+16                         \{
+17     y= \_y;
+18 \}
+\end{DoxyCode}
+\mbox{\Hypertarget{class_point_af7d9e533f0030edf4ab28fdc0f12acd4}\label{class_point_af7d9e533f0030edf4ab28fdc0f12acd4}} 
+\index{Point@{Point}!sub@{sub}}
+\index{sub@{sub}!Point@{Point}}
+\subsubsection{\texorpdfstring{sub()}{sub()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void Point\+::sub (\begin{DoxyParamCaption}\item[{\hyperlink{class_point}{Point}}]{p1 }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_point_af7d9e533f0030edf4ab28fdc0f12acd4}\label{class_point_af7d9e533f0030edf4ab28fdc0f12acd4}} 
+\index{Point@{Point}!sub@{sub}}
+\index{sub@{sub}!Point@{Point}}
+\subsubsection{\texorpdfstring{sub()}{sub()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void Point\+::sub (\begin{DoxyParamCaption}\item[{\hyperlink{class_point}{Point}}]{p1 }\end{DoxyParamCaption})}
+
+
+
+É atribuída a função {\itshape sub} a utilidade de subtrair às coordenadas (x, y) do ponto os valores das coordenadas de um ponto {\bfseries P1(x1,y1)}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p1} & é um ponto para utilizado para fins de soma de suas coordenadas (x,y) ás coordenadas (x,y) do ponto o qual chama a função. \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyCode}
+33                        \{
+34      x= x-p1.\hyperlink{class_point_acc27466778cc87a662bba40268c4c0c8}{getX}();
+35      y= y-p1.\hyperlink{class_point_a3cccbca94719ddde353cce86ce0e2f64}{getY}();
+36 \}
+\end{DoxyCode}
+\mbox{\Hypertarget{class_point_ad9676e36f3444534b609e3c68422239a}\label{class_point_ad9676e36f3444534b609e3c68422239a}} 
+\index{Point@{Point}!translada@{translada}}
+\index{translada@{translada}!Point@{Point}}
+\subsubsection{\texorpdfstring{translada()}{translada()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void Point\+::translada (\begin{DoxyParamCaption}\item[{float}]{a,  }\item[{float}]{b }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_point_ad9676e36f3444534b609e3c68422239a}\label{class_point_ad9676e36f3444534b609e3c68422239a}} 
+\index{Point@{Point}!translada@{translada}}
+\index{translada@{translada}!Point@{Point}}
+\subsubsection{\texorpdfstring{translada()}{translada()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void Point\+::translada (\begin{DoxyParamCaption}\item[{float}]{a,  }\item[{float}]{b }\end{DoxyParamCaption})}
+
+
+
+A função {\itshape translada} permite a translação do ponto em (x+a, y+b). 
+
+
+\begin{DoxyParams}{Parameters}
+{\em a} & e b são os valores que identificam o quanto deve ser transladado o ponto. \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyCode}
+40                                      \{
+41        x= x+a;
+42        y= y+b;
+43 \}
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{_point_8h}{Point.\+h}\item 
+\hyperlink{_point__copy_8h}{Point\+\_\+copy.\+h}\item 
+\hyperlink{_point_8cpp}{Point.\+cpp}\end{DoxyCompactItemize}

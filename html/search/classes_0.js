@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['point',['Point',['../classPoint.html',1,'']]],
-  ['poligono',['Poligono',['../classPoligono.html',1,'']]]
+  ['point',['Point',['../class_point.html',1,'']]],
+  ['poligono',['Poligono',['../class_poligono.html',1,'']]]
 ];

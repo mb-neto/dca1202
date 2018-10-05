@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['retangulo',['Retangulo',['../classRetangulo.html',1,'']]]
+  ['retangulo',['Retangulo',['../class_retangulo.html',1,'']]]
 ];
